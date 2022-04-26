@@ -1,0 +1,23 @@
+{
+  "name": "painter",
+  "version": "1.0.0",
+  "description": "nomadcoders",
+  "main": "app.js",
+  "scripts": {
+    "start": "http-server -c-1"
+  },
+  "dependencies": {
+    "http-server": "^0.12.3"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jongbeom2/painter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jongbeom2/painter/issues"
+  },
+  "homepage": "https://github.com/Jongbeom2/painter#readme"
+}

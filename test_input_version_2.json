@@ -1,0 +1,34 @@
+
+{
+  "session_id_1": {
+    "transactions": {
+      "send_x_to_server_req_01": {"from": "client01", "to": "client01_message_program", "payload": null},
+      "send_x_to_server_req_02": {"from": "client01_message_program", "to": "server_message_program", "payload": null},
+      "send_x_to_server_req_03": {"from": "server_message_program", "to": "server", "payload": null},
+      "send_x_to_server_res_04": {"from": "server", "to": "server_message_program", "payload": null},
+      "send_x_to_server_res_05": {"from": "server_message_program", "to": "client01_message_program", "payload": null},
+      "send_x_to_server_res_06": {"from": "client01_message_program", "to": "client01", "payload": null}
+    }
+  },
+  "session_id_2": {
+    "transactions": {
+      "send_x_to_server_req_01": {"from": "client01", "to": "client_message_program", "payload": "PAYLOAD_SAMPLE_1"},
+      "send_x_to_server_req_02": {"from": "client_message_program", "to": "server_message_program", "payload": "PAYLOAD_SAMPLE_1"},
+      "send_x_to_server_req_03": {"from": "server_message_program", "to": "server", "payload": "PAYLOAD_SAMPLE_1"},
+      "send_x_to_server_res_04": {"from": "server", "to": "server_message_program", "payload": "RESPONSE_1"},
+      "send_x_to_server_res_05": {"from": "server_message_program", "to": "client_message_program", "payload": "RESPONSE_1"},
+      "send_x_to_server_res_06": {"from": "client_message_program", "to": "client", "payload": "RESPONSE_1"}
+    }
+  },
+
+  "send_x_to_client": {
+    "transactions": {
+      "send_x_to_server_req_01": {"from": "server", "to": "server_message_program", "payload": "PAYLOAD_SAMPLE_2"},
+      "send_x_to_server_req_02": {"from": "server_message_program", "to": "client_message_program", "payload": "PAYLOAD_SAMPLE_2"},
+      "send_x_to_server_req_03": {"from": "client_message_program", "to": "client", "payload": "PAYLOAD_SAMPLE_2"},
+      "send_x_to_server_res_04": {"from": "client", "to": "client_message_program", "payload": "RESPONSE_2"},
+      "send_x_to_server_res_05": {"from": "client_message_program", "to": "server_message_program", "payload": "RESPONSE_1"},
+      "send_x_to_server_res_06": {"from": "server_message_program", "to": "server", "payload": "RESPONSE_1"}
+    }
+  }
+}
